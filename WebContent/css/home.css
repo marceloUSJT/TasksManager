@@ -1,0 +1,85 @@
+body {
+	background-color: #e5e5e5;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	line-height: 37px;
+}
+
+li {
+	display: inline-block;
+	margin: 0 20px;
+}
+
+ul li a {
+	color: #FFF;
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+ul li a:active {
+	color: #FFF;
+}
+
+header {
+	color: #FFF;
+	display:flex;
+	width:100%;
+	justify-content: space-around;
+	text-align: center;
+	margin-bottom: 60px;
+	background: linear-gradient(to right, #ababab, #6b6b6b);
+	padding: 10px 0;
+}
+
+.card {
+	width: 400px;
+	border: 1px solid black;
+	margin: 10px;
+}
+
+.titulo {
+	display:flex;
+	justify-content: space-between;
+	padding: 5px 0;
+	border: 1px solid black;
+}
+
+.titulo ul li {
+	margin: 0 5px;	
+}
+
+.texto {
+	padding: 10px 5px;
+}
+
+#containerCards {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	width: 62%;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	padding: 30px;
+}	
+
+#btnCriar {
+	border: 1px solid #8a8a8a;
+	padding: 5px;
+	color: #000;
+	height: 40px;
+	background-color: #FFF;	
+	text-decoration: none;
+	font-weight: bolder;
+	line-height: 30px; 	
+}
+
+#btnCriar:hover {
+	color: #FFF;
+	background-color: #8a8a8a;
+}
+
+
+
